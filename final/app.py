@@ -46,7 +46,7 @@ st.subheader('By: Hemraj Yadav and Amit Sai Jitta')
 
 #combined_data=pd.read_csv('comb.csv')
 
-combined_data = pd.read_csv('reduced.csv')
+combined_data = pd.read_csv('final/reduced.csv')
 combined_data = combined_data.iloc[:, 1:]
 
 combined_data['date']=pd.to_datetime(combined_data['Date'])
