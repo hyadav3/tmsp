@@ -53,7 +53,7 @@ combined_data['date']=pd.to_datetime(combined_data['Date'])
 combined_data['Date'] = pd.to_datetime(combined_data['Date'])
 combined_data.set_index('Date', inplace=True)
 
-input_ticker = st.text_input("Enter Stock ticker (Only AAPL, AMZN, TSLA)")
+input_ticker = st.text_input("Enter Stock ticker (Only AAPL, TSLA, AMZN)")
 
 
 # Check if input_ticker is a valid column name in the DataFrame
