@@ -302,7 +302,7 @@ if(input_ticker):
 
     st.subheader("30-Day Forecasting ")
 
-    df=pd.read_csv('comb.csv')
+    df=pd.read_csv('final/comb.csv')
 
     df=df[df['Ticker'] == input_ticker]
 
