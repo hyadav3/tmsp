@@ -8,7 +8,8 @@ GitHub URL:   https://github.com/hyadav3/tmsp.git
 ### Project Purpose
 The Trend Minder Stock Predictor project aims to develop a user-friendly website for interactive stock market pricing prediction that enables users to visualize stock market price predictions and gain actionable insights for better and informed decision-making.
 
-### Target Audience: The target audience for the project includes stock traders, investors, and financial analysts.
+### Target Audience: 
+The target audience for the project includes stock traders, investors, and financial analysts.
 
 ### Project Goals:
 1.	Visualization of Stock Data: Provide users with intuitive visualizations of stock market data.
@@ -52,3 +53,12 @@ Volume: total number of shares of a particular stock that are traded during a sp
 •	Managing user inputs and outputs efficiently within the Streamlit framework required thorough testing with available widgets.
 
 •	Integrating the machine learning models with the Streamlit web framework posed some difficulties. We addressed this by carefully structuring our code and utilizing Streamlit's capabilities for model integration.
+
+## References:
+Fast EDA :  https://pypi.org/project/fasteda/
+Yahoo Finance: https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+Kaggle: https://www.kaggle.com/code/faressayah/stock-market-analysis-prediction-using-lstm
+Python Plot: https://plotly.com/python/templates/
+Python: https://www.python.org/
+App Build: https://streamlit.io/
+
