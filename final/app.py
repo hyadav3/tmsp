@@ -19,13 +19,13 @@ import pandas as pd
 from statsmodels.tsa.seasonal import seasonal_decompose
 #from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.stattools import acf
-#from scipy.stats import boxcox
+from scipy.stats import boxcox
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 #from statsmodels.tsa.arima.model import ARIMA
 #from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 from statsmodels.stats.diagnostic import acorr_ljungbox
-#from scipy.stats import shapiro
+from scipy.stats import shapiro
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 
