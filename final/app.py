@@ -228,13 +228,13 @@ if(input_ticker):
     from tensorflow.keras.models import load_model
 
     if input_ticker == "TSLA":
-        model = load_model('tsla_model.h5')
+        model = load_model('final/tsla_model.h5')
     elif input_ticker == "AAPL":
-        model = load_model('aapl_model.h5')
+        model = load_model('final/aapl_model.h5')
     elif input_ticker == "AMZN":
-        model = load_model('amzn_model.h5')
+        model = load_model('final/amzn_model.h5')
     elif input_ticker == 'F':
-        model = load_model('f_model.h5')
+        model = load_model('final/f_model.h5')
 
     st.subheader('after model loading')
 
@@ -339,13 +339,13 @@ if(input_ticker):
     # model loading comes here 
 
     if input_ticker == "TSLA":
-        n_model = load_model('test_TSLA_model.h5')
+        n_model = load_model('final/test_TSLA_model.h5')
     elif input_ticker == "AAPL":
-        n_model = load_model('test_AAPL_model.h5')
+        n_model = load_model('final/test_AAPL_model.h5')
     elif input_ticker == "AMZN":
-        n_model = load_model('test_AMZN_model.h5')
+        n_model = load_model('final/test_AMZN_model.h5')
     elif input_ticker == 'F':
-        n_model = load_model('test_f_model.h5')
+        n_model = load_model('final/test_f_model.h5')
 
 
 
