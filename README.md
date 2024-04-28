@@ -2,7 +2,7 @@
 
 ## Section 1: Introduction
 The Trend Minder Stock Predictor project aims to develop a user-friendly website for interactive stock market pricing prediction. The website enables users to visualize stock market price predictions and gain actionable insights for better and informed decision-making.
-WebApp URL:   <Public URL for the application > full URL don’t embed
+WebApp URL:   https://msh7fscmafcvy28ixndvwc.streamlit.app/
 GitHub URL:   https://github.com/hyadav3/tmsp.git
 
 ### Project Purpose
